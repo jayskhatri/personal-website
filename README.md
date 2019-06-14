@@ -41,7 +41,9 @@ bundle install
 ```
 5. Build the site and make it available on a local server
 ```
-bundle exec jekyll serve
+bundle exec jekyll <v-stepper v-model="value" vertical>
+  
+</v-stepper>
 ```
 
 You should see something like:
